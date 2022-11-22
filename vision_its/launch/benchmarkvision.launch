@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <node name="downcam_node" pkg="vision_its" type="downcam.py" output="screen"/>
+  <node name="frontcam_node" pkg="vision_its" type="frontcam.py" output="screen"/>
+  <node name="trackHGatenPad_node" pkg="vision_its" type="trackHGatenPad.py" output="screen"/>
+</launch>
